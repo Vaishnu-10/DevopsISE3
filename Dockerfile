@@ -2,7 +2,7 @@
 FROM openjdk:8
 COPY . /src/java
 WORKDIR /src/java
-RUN ["javac", "PrimeNo.java"]
+RUN ["javac", "Prime.java"]
 ENTRYPOINT ["java", "PrimeNo"]Jenkinsfile:
 pipeline
 {
